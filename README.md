@@ -2,6 +2,14 @@
 https://www.youtube.com/watch?v=zkz2HuNR_gk&t=299s
 
 
+complete
+https://github.com/developedbyed/react-auth-firebase
+
+
+styles
+https://github.com/AaronGabriel147/lurker/blob/main/src/App.css
+
+
 
 
 

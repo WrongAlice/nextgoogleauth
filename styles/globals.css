@@ -45,7 +45,7 @@ button {
   color: white;
   outline: none;
   border-radius: 5px;
-  background: #483791;
+  background: #6852ce;
   letter-spacing: 1px;
   word-spacing: 3px;
   transition: 0.3s;
@@ -58,9 +58,10 @@ button:hover {
 
 
 .login {
-  min-height: 100vh;
-  max-height: 100%;
-  margin: auto;
+  /* min-height: 100vh;
+  max-height: 100%; */
+  /* margin: auto; */
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +72,10 @@ button:hover {
 
 
 
-
+img {
+  height: 45px;
+  border-radius: 50%;
+}
 
 
 
