@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app {
+  /* border: 2px solid red; */
+  min-height: 100vh;
+  max-height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  /* border: 2px solid blue; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgba(0, 0, 0, 0.529);
+}
+
+.join-now {
+  color: rgb(0, 132, 255);
+  /* background: rgba(0, 0, 0, 0.55); */
+  padding: 10px;
+  font-size: larger;
+}
+
+
+
+button {
+  min-width: 15.5rem;
+  padding: 0.6rem 3rem;
+  height: 39px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  background: #483791;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  transition: 0.3s;
+
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+
+.login {
+  min-height: 100vh;
+  max-height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: rgb(41, 53, 47);
+  }
+}
