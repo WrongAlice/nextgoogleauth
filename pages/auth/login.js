@@ -22,10 +22,18 @@ export default function Login() {
         }
     }
 
-    useEffect(() => {
-        if (user) route.push('/dashboard');
-        else console.log("Login");
-    }, [user])
+
+    // useEffect(() => {
+    //     if (user) route.push('/dashboard');
+    //     else console.log("Login");
+    // }, [user])
+
+    // useEffect(() => {
+    if (user) {
+        route.push('/dashboard');
+    }
+    // }, [user]);
+
 
 
     return (
