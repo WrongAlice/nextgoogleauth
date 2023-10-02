@@ -3,8 +3,6 @@
   padding: 0;
   margin: 0;
   max-width:100%;
-/*put a border around everything to see where it stops and starts*/
-/*     border:1px solid grey; */
 }
 /*General Styles*/
 html{
@@ -51,7 +49,7 @@ i{
   position:fixed;
   width:100%;
   top:0;
-  background-color:rgba(255, 255, 255, 0.8);
+  background-color:#FFFAFA;
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -367,7 +365,7 @@ nav.main a{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Enhance the box shadow on hover */
 }
 
-/* Add this CSS to your stylesheets or style tags */
+
 #checkout-and-portal-button {
   background-color: #007bff;
   color: #fff;
@@ -392,4 +390,71 @@ nav.main a{
   .product-card {
     flex: 0 1 calc(50% - 20px); /* Adjust the width for smaller screens */
   }
+}
+
+
+/* mission page styles */
+
+
+.mission-content {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 7rem;
+  margin-right:7rem; 
+}
+
+
+.values-section,
+.join-us-section {
+ padding: 20px;
+  margin-top:9rem;
+  margin-bottom:.1rem;
+  border-radius: 5px;
+ 
+ 
+ 
+}
+
+.values-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values-section li {
+  margin-top:45px;
+  margin-bottom: 25px;
+  margin-left: 7rem;
+  margin-right:7rem;
+
+}
+
+.values-section strong {
+  color: #007bff;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional paragraph styles */
+p {
+  margin-bottom: 20px;
 }

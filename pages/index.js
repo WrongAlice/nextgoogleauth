@@ -25,7 +25,7 @@ export default function Home() {
       <div className="container">
         <div className="box">
           <i className="fas fa-cheese"></i>
-          <h3>Dairy</h3>
+          <h3>Veggies</h3>
         </div>
         <div className="box">
           <i className="fas fa-egg"></i>
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="box">
           <i className="fas fa-bread-slice"></i>
-          <h3>Bakery</h3>
+          <h3>Flowers</h3>
         </div>
       </div>
     </section>
@@ -53,12 +53,12 @@ export default function Home() {
     <section className="gallery">
       <div className="farm">
         <div className="hide">
-          <h2>The Farm</h2>
+          <h2>Organic Farming Methods</h2>
         </div>
       </div>
       <div className="cook">
         <div className="hide">
-          <h2>Cooking Classes</h2>
+          <h2>Eco Friendly Workshops</h2>
         </div>
       </div>
       <div className="produce">
@@ -68,7 +68,7 @@ export default function Home() {
       </div>
       <div className="animals">
         <div className="hide">
-          <h2>The Animals</h2>
+          <h2>Events</h2>
         </div>
       </div>
     </section>
@@ -114,14 +114,14 @@ export default function Home() {
       <div>
         <nav className="main">
           <a href="#top">Home</a>
-          <a href="#farm">Farm Fresh</a>
-          <a href="#about">About</a>
+          <a href="#farm">Our Mission</a>
+          <a href="#about">Donate</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
       <div className="copyright">
         <p>
-          Copyright <a href="http://npizza.com" target="_blank" rel="noopener noreferrer">Nicole Pizzano</a> 2020
+          c <a href="http://npizza.com" target="_blank" rel="noopener noreferrer">Nicole Pizzano</a> 2020
         </p>
       </div>
     </footer>
