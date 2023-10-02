@@ -13,7 +13,119 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Home page.</h1>
+      <div>
+    <section id="top">
+      <div className="titles">
+        <h1>Farm To Table</h1>
+        <h2>Ethical Fresh Products<br />Delivered To Your Door</h2>
+      </div>
+    </section>
+    <section id="farm">
+      <h2>Farm Fresh</h2>
+      <div className="container">
+        <div className="box">
+          <i className="fas fa-cheese"></i>
+          <h3>Dairy</h3>
+        </div>
+        <div className="box">
+          <i className="fas fa-egg"></i>
+          <h3>Eggs</h3>
+        </div>
+        <div className="box">
+          <i className="fas fa-carrot"></i>
+          <h3>Produce</h3>
+        </div>
+        <div className="box">
+          <i className="fas fa-bread-slice"></i>
+          <h3>Bakery</h3>
+        </div>
+      </div>
+    </section>
+    <section className="hero-image">
+      {/* This is a blank section - our bg image will go here */}
+    </section>
+    <section id="about">
+      {/* Build the about section, give the box around the text a class of text */}
+      <i className="fas fa-paw"></i>
+      <p>Our Story</p>
+      Cauliflower a seeds quail. Lettus gobblers pens, radish on kidney beans, llamas pick up truck. Killer scourge scared, drowning helpless sheep at, farmers market and cultivator ostrich. Outhouse at nails mower. Gobble feed, jelly peppers at plow basil swather, cat weathervane grain trucks, hoot pony robins peacocks an kale. Oranges cucumbers rhubarb gourds watermelon. Petting zoo at carrots alligators quack. Haybine carrots soybeans, owl.
+    </section>
+    <section className="gallery">
+      <div className="farm">
+        <div className="hide">
+          <h2>The Farm</h2>
+        </div>
+      </div>
+      <div className="cook">
+        <div className="hide">
+          <h2>Cooking Classes</h2>
+        </div>
+      </div>
+      <div className="produce">
+        <div className="hide">
+          <h2>The Produce</h2>
+        </div>
+      </div>
+      <div className="animals">
+        <div className="hide">
+          <h2>The Animals</h2>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Come Visit Us!</h2>
+      <div className="left">
+        <div className="contact-info">
+          <i className="far fa-tractor"></i>
+          <h3>Find Us At:</h3>
+          123 Cottonwood Rd. Prince Edward County, Ontario Canada K1X 0H8
+          <br />
+          {/* Wrap anchor links around these tags and fill out the correct href for email and phone number */}
+          <a href="tel:888-888-8888">888-888-8888</a>
+          <br />
+          <a href="mailto:peter.rabbit@farmtotable.com">peter.rabbit@farmtotable.com</a>
+        </div>
+      </div>
+      <div className="right">
+        <div className="img-container">
+          <img
+            src="https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/landscape.jpg?raw=true"
+            alt="tractor towing bails of hay accross a field of wheat"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <h3>Connect With Us On The Socials</h3>
+        <nav className="social">
+          {/* Make the social media links open in a new tab */}
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook-square"></i>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter-square"></i>
+          </a>
+        </nav>
+      </div>
+      <div>
+        <nav className="main">
+          <a href="#top">Home</a>
+          <a href="#farm">Farm Fresh</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div className="copyright">
+        <p>
+          Copyright <a href="http://npizza.com" target="_blank" rel="noopener noreferrer">Nicole Pizzano</a> 2020
+        </p>
+      </div>
+    </footer>
+  </div>
 
 
     </div>

@@ -9,8 +9,17 @@ export default function Nav() {
     const [user, loading] = useAuthState(auth);
 
     return (
-        <nav className="nav-bar">
+        <section className="headzone">
+        <nav className="nav">
+             <div className="logo">
+          <i className="fas fa-tractor"></i>
+        </div>
             <Link href={"/"}>Home</Link>
+            <Link href="/mission">Mission</Link>
+            <a href="/volunteer">Volunteer</a>
+            <a href="/donate">Donate</a>
+            <a href="/subscriptions">Subscriptions</a>
+            <a href="/learn">Learn</a>
             <ul>
                 {!user && (
                     <Link href={"/auth/login"}>
@@ -29,5 +38,6 @@ export default function Nav() {
                 )}
             </ul>
         </nav>
+        </section>
     )
 }
