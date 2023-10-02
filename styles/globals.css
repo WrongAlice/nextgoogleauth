@@ -340,7 +340,56 @@ nav.main a{
   }
 }
 
+/* //subscription page */
+
+/* Add this CSS to your stylesheets or style tags */
+.subscription-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -10px; /* Add negative margin to counteract child element margin */
+}
+
+.product-card {
+  flex: 0 1 calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px; /* Add some spacing between cards */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s; /* Add a smooth transition effect */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Enhance the box shadow on hover */
+}
+
+/* Add this CSS to your stylesheets or style tags */
+#checkout-and-portal-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
+
+#checkout-and-portal-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
 
 
-
- 
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .product-card {
+    flex: 0 1 calc(50% - 20px); /* Adjust the width for smaller screens */
+  }
+}
